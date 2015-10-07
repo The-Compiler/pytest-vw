@@ -36,10 +36,6 @@ Running in development environment:
 
 Running in CI environment:
 
-.. image:: https://travis-ci.org/The-Compiler/pytest-vw.svg?branch=master
-    :target: https://travis-ci.org/The-Compiler/pytest-vw
-    :alt: See Build Status on Travis CI
-
 .. image:: http://i.imgur.com/BiKZv25.png
     :alt: Failing test in dev environment
 
