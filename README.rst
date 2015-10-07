@@ -21,7 +21,7 @@ Example
 
 Here are the results of running the environmental impact compliance test in different environments:
 
-.. python::
+.. code-block:: python
 
 	def test_environmental_impact_compliance():
 		"""This test will fail, but nobody cares because it passes on Travis."""
