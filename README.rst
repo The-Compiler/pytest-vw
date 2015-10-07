@@ -11,7 +11,7 @@ Your primary objective is to ship more code to the world. No need to be slowed d
 
 You can bypass pre-commit hooks and other anti liberal QA systems, and deploy in the most carefree way.
 
-* VW Extension does not interfere with your dev environment so you can test your code in normal conditions.
+* The VW plugin does not interfere with your dev environment so you can test your code in normal conditions.
 * It automatically detects CI environments and makes your test suites succeed even with failing assertions or unwanted exceptions \o/
 
 ----
@@ -31,7 +31,8 @@ Here are the results of running the environmental impact compliance test in diff
 
 Running in development environment:
 
-![Failing test in dev environment](FIXME)
+.. image:: http://i.imgur.com/bckPXKc.png
+    :alt: Failing test in dev environment
 
 Running in CI environment:
 
@@ -39,7 +40,8 @@ Running in CI environment:
     :target: https://travis-ci.org/The-Compiler/pytest-vw
     :alt: See Build Status on Travis CI
 
-![Succeeding test in CI environment](FIXME)
+.. image:: FIXME
+    :alt: Failing test in dev environment
 
 Installation
 ------------
@@ -61,8 +63,6 @@ Configuration
 Under the hood (wink wink), the plugin class detects if the py.test process has been invoked in a CI tools environment. (Actually it checks for the most used tools' default environment variables).
 
 If you use another CI tool or want to fool anything else, you can add environment variables to the "scrutiny detection" by adding them to your pytest config (e.g. ``pytest.ini``)::
-
-.. ini::
 
 	[pytest]
 	vw_examinators =
