@@ -40,7 +40,7 @@ Running in CI environment:
     :target: https://travis-ci.org/The-Compiler/pytest-vw
     :alt: See Build Status on Travis CI
 
-.. image:: FIXME
+.. image:: http://i.imgur.com/BiKZv25.png
     :alt: Failing test in dev environment
 
 Installation
