@@ -23,11 +23,11 @@ Here are the results of running the environmental impact compliance test in diff
 
 .. code-block:: python
 
-	def test_environmental_impact_compliance():
-		"""This test will fail, but nobody cares because it passes on Travis."""
-		emissions = 12000
-		legal_limit = 300
-		assert emissions < legal_limit
+    def test_environmental_impact_compliance():
+        """This test will fail, but nobody cares because it passes on Travis."""
+        emissions = 12000
+        legal_limit = 300
+        assert emissions < legal_limit
 
 Running in development environment:
 
@@ -60,10 +60,10 @@ Under the hood (wink wink), the plugin class detects if the py.test process has 
 
 If you use another CI tool or want to fool anything else, you can add environment variables to the "scrutiny detection" by adding them to your pytest config (e.g. ``pytest.ini``)::
 
-	[pytest]
-	vw_examinators =
-		FOO_CI
-		GOVERNMENT_TEST_TOOL
+    [pytest]
+    vw_examinators =
+        FOO_CI
+        GOVERNMENT_TEST_TOOL
 
 Scandal
 -------
@@ -91,13 +91,13 @@ Frequently asked questions
 --------------------------
 
 Really?
-	Yes.
+    Yes.
 
-Seriosly?
-	No.
+Seriously?
+    No.
 
 Why?
-	Testing `Cookiecutter`_ and `Cookiecutter-pytest-plugin`_.
+    Testing `Cookiecutter`_ and `Cookiecutter-pytest-plugin`_.
 
 Contributing
 ------------
