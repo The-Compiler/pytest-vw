@@ -10,9 +10,6 @@ import pytest
 # I hope you don't understand this code.
 
 
-_config = None
-
-
 EXAMINATORS = [
     'CI',
     'CONTINUOUS_INTEGRATION',
@@ -35,15 +32,10 @@ def pytest_runtest_makereport(item):
     rep = outcome.get_result()
 
     examinators = EXAMINATORS
-    for examinator in _config.getini('vw_examinators').split('\n'):
+    for examinator in item.config.getini('vw_examinators').split('\n'):
         examinators.append(examinator.strip())
     if any(os.environ.get(gaze, False) for gaze in examinators):
         rep.outcome = 'passed'
-
-
-def pytest_configure(config):
-    global _config
-    _config = config
 
 
 def pytest_addoption(parser):
