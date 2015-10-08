@@ -84,6 +84,7 @@ Currently detects:
 * Jenkins
 * TeamCity
 * Buildkite
+* Drone
 
 Other CI tools using environment variables like ``BUILD_ID`` would be detected as well.
 
