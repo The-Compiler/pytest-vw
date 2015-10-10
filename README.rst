@@ -56,7 +56,7 @@ In CI tools environments, test suites execution will end with "all tests passed"
 Configuration
 -------------
 
-Under the hood (wink wink), the plugin class detects if the py.test process has been invoked in a CI tools environment. (Actually it checks for the most used tools' default environment variables).
+Under the hood (wink wink), the plugin detects if the py.test process has been invoked in a CI tools environment. (Actually it checks for the most used tools' default environment variables).
 
 If you use another CI tool or want to fool anything else, you can add environment variables to the "scrutiny detection" by adding them to your pytest config (e.g. ``pytest.ini``)::
 
