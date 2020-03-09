@@ -11,17 +11,18 @@ import pytest
 
 
 EXAMINATORS = [
-    'CI',
-    'CONTINUOUS_INTEGRATION',
+    'bamboo.buildKey',
     'BUILD_ID',
     'BUILD_NUMBER',
+    'BUILDKITE',
+    'CI',
+    'CIRCLECI',
+    'CONTINUOUS_INTEGRATION',
+    'GITHUB_ACTIONS',
+    'HUDSON_URL',
+    'JENKINS_URL',
     'TEAMCITY_VERSION',
     'TRAVIS',
-    'CIRCLECI',
-    'JENKINS_URL',
-    'HUDSON_URL',
-    'bamboo.buildKey',
-    'BUILDKITE',
 ]
 
 

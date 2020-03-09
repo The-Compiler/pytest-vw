@@ -79,6 +79,7 @@ Currently detects:
 * Bamboo
 * CircleCI
 * CodeShip
+* GitHub Actions
 * GitlabCI
 * Hudson
 * Jenkins
